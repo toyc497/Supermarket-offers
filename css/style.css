@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* CONTAINER */
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* BUTTONS */
+
+.container .btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: aquamarine;
+}
+
+.container .btn:first-child{
+    margin-right: 20px;
+}
+
+.container .btn:last-child{
+    margin-left: 20px;
+}
+
+.container .btn:hover{
+    cursor: pointer;
+    background-color: rgb(62, 139, 114);
+}
+
+/* CARD */
+
+.cardContainer{
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.cardContainer .txtPadrao{
+    font-family: sans-serif;
+    color: #1087cc;
+}
+
+.cardContainer .produtoTxt{
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.cardContainer .valorTxt{
+    padding-top: 150px;
+    font-size: 25px;
+}

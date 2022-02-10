@@ -1,0 +1,24 @@
+{
+    "produtos" : [
+            {
+                "produtoItem":"Celular",
+                "valorItem":800.00
+            },
+            {
+                "produtoItem":"Hoverboard",
+                "valorItem":650.00
+            },
+            {
+                "produtoItem":"Skate",
+                "valorItem":500.00
+            },
+            {
+                "produtoItem":"TV",
+                "valorItem":1200.00
+            },
+            {
+                "produtoItem":"Mouse",
+                "valorItem":30
+            }
+        ]
+}
